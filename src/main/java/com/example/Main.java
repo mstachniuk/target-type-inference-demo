@@ -11,5 +11,7 @@ public class Main {
 	private static void method(Env env) {
 		String type = env.getSomeType();
 		System.out.println(type);
+
+		Integer type2 = env.getSomeType();  // ClassCastException
 	}
 }
